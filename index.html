@@ -25,7 +25,7 @@
 			<div class="codrops-links">
 
 			</div>
-			<img class="mylogo" src="/img/my_logo1.png" alt="Ryan Cenicola" >
+			<img id="preload" onload="fadeIn(this)" class="mylogo" src="/img/my_logo1.png" alt="Ryan Cenicola" >
 			<h1>
 				<div class="myname">Ryan Cenicola</div>
 				<span class="myinfo">I am currently a student in the
@@ -34,6 +34,9 @@
 				<a href="https://www.youtube.com/watch?v=RQ7oArZrQ1s" target="_blank">USC</a>
 				and working as a Marketing Assitant at
 					<a href="http://www.goldenvoice.com/#/" target="_blank">Goldenvoice</a>.</span>
+		<span class="myinfo1">
+I am passionate about using creative media to produce unforgettable experiences.
+		</span>
 			<span class="myinfo2">
 				Feel free to reach out to me via
 					<a href="mailto:ryanc@goldenvoice.com?Subject=Hello!" target="_blank">Email,</a>
@@ -455,6 +458,7 @@
 	<script src="js/masonry.pkgd.min.js"></script>
 	<script src="js/classie.js"></script>
 	<script src="js/main.js"></script>
+
 	<script>
 		(function() {
 			var support = { transitions: Modernizr.csstransitions },
