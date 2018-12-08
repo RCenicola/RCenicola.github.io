@@ -53,6 +53,14 @@ a {
 	font-size: 50px;
 }
 
+.weekly {
+	font-size: 16px;
+	text-align: justify;
+	padding-left: 5%;
+	padding-right: 5%;
+
+}
+
 .myinfo {
 	margin-top:20px;
 	margin-bottom: -15px;
