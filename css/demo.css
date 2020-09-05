@@ -142,7 +142,7 @@ button:focus {
 	left: 50%;
 	width: 1px;
 	height: 100%;
-	background: rgba(255, 255, 255, 0.1);
+		background-image: url("/img/bg1.jpg");
 	content: '';
 	-webkit-transform: rotate3d(0, 0, 1, 22.5deg);
 	transform: rotate3d(0, 0, 1, 22.5deg);
@@ -250,7 +250,7 @@ body #cdawrap {
 	top: 15px;
 	right: auto;
 	left: 15px;
-	background: url("bg1.jpg");
+		background-image: url("/img/bg1.jpg");
 	border: none;
 }
 
