@@ -35,7 +35,17 @@ body {
 	font-weight: lighter;
 	font-family: 'Cardo', 'Tinos','Helvetica Neue', 'Lato', 'Segoe UI', Helvetica, Arial, sans-serif;
 	color: #fff;
-	background: #252323;
+	background-image: url("/img/bg1.jpg");
+	background-repeat: no-repeat;
+	 background-position: center;
+	 background-attachment: fixed;
+	 webkit-background-size: cover;
+	 -moz-background-size: cover;
+	 -o-background-size: cover;
+	 background-size: cover;
+	 height:100%;
+	 width:100%;
+	);
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 	overflow-y: scroll;
@@ -121,6 +131,9 @@ button:focus {
 .mylogo {
 	height: 250px;
 	width:auto;
+	display: block;
+ margin-left: auto;
+ margin-right: auto;
 }
 
 .codrops-links::after {
@@ -227,14 +240,17 @@ button:focus {
 	font-size: 1em;
 }
 
-
+* {
+  margin: 0;
+  padding: 0;
+}
 /* Demo ad style */
 
 body #cdawrap {
 	top: 15px;
 	right: auto;
 	left: 15px;
-	background-color: rgba(0, 0, 0, 0.6);
+	background: url("bg1.jpg");
 	border: none;
 }
 
